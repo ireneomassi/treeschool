@@ -1,0 +1,33 @@
+  @import url('https://fonts.googleapis.com/css2?family=Marck+Script&family=Roboto+Condensed:wght@400;700&display=swap');
+body {
+    background-color:#E7CBCB;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.navbar ul li:hover{
+    
+    
+    color: #990f4b;
+}
+.navbar ul li {
+    text-align: center;
+    list-style-type: none;
+    color: #C88EA7;
+}
+#main_title {
+    color: #C88EA7;
+    text-align: center;
+    font-family: 'Marck Script', cursive;
+
+}
+h2 {
+    color: #643843;
+    text-align: center;
+}
+.general_image {
+
+    width: 30%;   
+    border-radius: 30px;
+}
+.image2 {
+    border: 4px solid #643843;
+}

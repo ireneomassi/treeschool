@@ -1,0 +1,20 @@
+body {
+
+    background-color:#025464;
+}
+
+.navbar ul li {
+    list-style-type: none;
+}
+
+#general_title {
+    color: blueviolet;
+}
+
+li {
+color: rgb(24, 160, 160);
+}
+
+#general_image {
+    border: 2px solid #b5138f;
+}
