@@ -1,0 +1,213 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* HEADER */
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #29252c;
+  padding: 1rem;
+  font-family: "Ysabeau Office", sans-serif;
+}
+.hamb-menu {
+  display: none;
+}
+.navbar a {
+  color: beige;
+}
+.navbar ul {
+  display: flex;
+  gap: 2em;
+}
+.navbar ul li {
+  color: beige;
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
+
+.navbar img {
+  width: 20px;
+  height: 20px;
+}
+.nav-menu {
+  display: none;
+}
+/* MAIN */
+
+.main-content {
+  display: flex;
+  padding: 30px 30px;
+  gap: 40px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+/* CARRELLO */
+
+.cart {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  font-family: "Ysabeau Office", sans-serif;
+}
+.cart h1 {
+  font-weight: normal;
+}
+.product {
+  display: flex;
+  margin: 20px 0;
+  align-items: self-start;
+  flex-direction: row;
+  justify-content: center;
+}
+.product img {
+  max-width: 200px;
+}
+
+.description {
+  padding: 20px;
+  margin: 20px;
+  /* border: 2px solid blue; */
+}
+.description img {
+  max-width: 20px;
+  margin-top: 10px;
+}
+.description img:hover {
+  cursor: pointer;
+}
+
+/* RIEPILOGO */
+
+.summary {
+  border: 2px solid blue;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  border: 1.5px solid #29252c;
+  border-radius: 20px;
+  font-family: "Ysabeau Office", sans-serif;
+}
+.summary h1 {
+  font-weight: normal;
+}
+.summary img {
+  max-width: 80px;
+}
+.summary button {
+  margin-top: 20px;
+  background-color: #29252c;
+  color: rgb(252, 252, 233);
+  border: 1.5px solid #29252c;
+  padding: 5px 15px;
+  border-radius: 20px;
+}
+
+.sum-product {
+  display: flex;
+  align-items: self-start;
+  margin: 20px 0;
+  /* border: 2px solid blue; */
+  /* gap:20px; */
+}
+.sum-product p {
+  margin: 20px;
+}
+
+/* OTHERS */
+
+.others {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+}
+.others h1 {
+  font-family: "Ysabeau Office", sans-serif;
+  font-weight: normal;
+}
+.others img {
+  margin: 20px 0;
+  max-width: 200px;
+}
+.others-prod {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  flex-wrap: wrap;
+}
+/* FOOTER */
+
+footer {
+  background-color: #29252c;
+  padding: 1rem;
+
+  display: flex;
+  flex-direction: column;
+  font-family: "Ysabeau Office", sans-serif;
+}
+.footer-menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 20px;
+}
+footer a {
+  color: rgba(245, 245, 220, 0.838);
+}
+footer ul li {
+  color: rgba(245, 245, 220, 0.838);
+  list-style-type: none;
+}
+footer p {
+  text-align: center;
+  color: rgba(245, 245, 220, 0.838);
+}
+/* TABLET */
+@media screen and (max-width: 992px) {
+
+}
+/* MOBILE */
+@media screen and (max-width: 600px) {
+    /* navbar */
+    .navbar {
+      justify-content: space-between;
+    }
+  
+    .logo-hm {
+      display: flex;
+      gap: 20px;
+    }
+    .hamb-menu {
+      display: block;
+    }
+    .menu {
+      display: none;
+    }
+    .nav-menu {
+      display: block;
+      background-color: #29252c;
+    }
+    .nav-menu ul {
+      padding: 20px 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 20px;
+    }
+    .nav-menu ul li {
+      list-style-type: none;
+    }
+    .nav-menu ul li a {
+      text-decoration: none;
+      color: beige;
+    }
+    /* carrello */
+  
+}
